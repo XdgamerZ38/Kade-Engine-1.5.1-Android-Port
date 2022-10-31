@@ -407,13 +407,13 @@ class TitleState extends MusicBeatState
 				if (Main.watermarks)
 					createCoolText(['Kade Engine', 'by']);
 				else
-					createCoolText(['In Partnership', 'with']);
+					createCoolText(['created', 'by']);
 			case 7:
 				if (Main.watermarks)
 					addMoreText('KadeDeveloper');
 				else
 				{
-					addMoreText('Newgrounds');
+					addMoreText('xd rice ande MaxWithAnotherx');
 					ngSpr.visible = true;
 				}
 			// credTextShit.text += '\nNewgrounds';
@@ -442,7 +442,7 @@ class TitleState extends MusicBeatState
 				addMoreText('Night');
 			// credTextShit.text += '\nNight';
 			case 15:
-				addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+				addMoreText('Jeffin'); // credTextShit.text += '\nFunkin';
 
 			case 16:
 				skipIntro();
